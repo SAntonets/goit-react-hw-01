@@ -1,10 +1,13 @@
+import clsx from "clsx";
+import css from "./profile.module.css";
+
 const Profile = (props) => {
 
      const { name, tag, location, image, stats} = props;
   const { followers, views, likes } = stats;
 
   return (
-   <div>
+   <div className={css.profileWraper}>
 <div>
 <img
 src={image}
