@@ -1,5 +1,5 @@
-import Profile from "./components/Profile1/Profile";
-import userData from "./components/Profile1/userData.json"
+import Profile from "./components/Profile/Profile";
+import userData from "./components/Profile/userData.json"
 
 
 
