@@ -8,14 +8,15 @@ const Profile = (props) => {
 
   return (
    <div className={css.profileWraper}>
-<div>
-<img
+<div className={css.profileAvatarWraper}>
+        <img 
+          className={css.profileAvatar}
 src={image}
 alt="User avatar"
 />
-              <p>{name}</p>
-              <p>@{tag}</p>
-              <p>{location}</p>
+<p className={css.profileTitle}>{name}</p>
+<p>@{tag}</p>
+ <p>{location}</p>
 </div>
 
 <ul>
