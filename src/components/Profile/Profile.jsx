@@ -15,8 +15,8 @@ src={image}
 alt="User avatar"
 />
 <p className={css.profileTitle}>{name}</p>
-<p>@{tag}</p>
- <p>{location}</p>
+<p className={css.profileMainInfo }>@{tag}</p>
+ <p className={css.profileMainInfo }>{location}</p>
 </div>
 
 <ul>

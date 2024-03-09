@@ -29,14 +29,16 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  word-break: break-word;
+  text-align: center;
+  margin: 4px;
 }
 
 .profileMainInfo {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  word-break: break-word;
+  text-align: center;
+  margin: 4px;
 }
